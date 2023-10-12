@@ -11,33 +11,54 @@
 
 .nav{
     width: 100%;
-    height: 80px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-
 }
 
 .container-nav{
     width: 30%;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
 }
 
 .mini-container{
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;  
+}
+
+.container-mini-arrow{
+    width: 18px;
+    height: 15px;
+    background-color: #4A4A4A;
+    margin-right: .5rem;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
 }
 
 .mini-arrow{
-    margin: 0.5rem;
-    background-color: #4a4a4a;
+    font-size: 15px;
+    
+}
+
+
+.container-mini-icon{
+    width: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.mini-icon{
+    font-size: 15px;
 }
 
 .h6-margin{
-    margin-left: .5rem;
-    margin-right: .5rem;
+    font-size: 8px;
+    width: px;
 }
 
 main{
@@ -131,4 +152,21 @@ footer{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.container-footer-right{
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a;
+}
+
+.end-meeting{
+    font-size: 10px;
+    padding: 2.3rem 0;
+}
+
+.red{
+    color: red;
 }
